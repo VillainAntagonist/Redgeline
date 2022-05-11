@@ -1,0 +1,55 @@
+.leftSide {
+    height: 41.125rem;
+    width: 43rem;
+    display: inline-block;
+    margin: 3.5625rem 4.8125rem 9.625rem 4.9375rem;
+
+}
+
+.leftSide img {
+    object-fit: cover;
+}
+
+.currentPhoto {
+    width: 43rem;
+    height: 33.125rem;
+    border-radius: 2.9375rem;
+}
+
+.gallery {
+    width: 43rem;
+    height: 5.3125rem;
+    margin-top: 2.75rem;
+}
+
+.arrow {
+    width: 2.36125rem;
+    height:2.36125rem;
+    display: inline-block;
+    margin-left: 1.125rem ;
+    margin-bottom: 1.4375rem;
+    cursor: pointer;
+}
+.arrow:hover{
+    background: #FF4D00;
+    border-radius: 100%;
+}
+
+.left {
+    transform: rotateY(180deg);
+    margin-left: 0;
+    margin-right: 1.125rem;
+}
+
+.photo {
+    width: 7.875rem;
+    height: 5.25rem;
+    display: inline-block;
+    margin: 0 0.5652rem;
+    border-radius: 0.875rem;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.active {
+    filter: none;
+}

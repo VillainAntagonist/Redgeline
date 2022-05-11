@@ -1,0 +1,10 @@
+.App {
+    background: #EFF2FB;
+    width: 94.5rem;
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
